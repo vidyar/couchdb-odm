@@ -4,9 +4,9 @@ services:
   - couchdb
 
 php:
- # - 5.3
+  - 5.3
   - 5.4
-  - hhvm
+  #- hhvm
 
 before_script:
   - curl -X PUT localhost:5984/doctrine_test_database
